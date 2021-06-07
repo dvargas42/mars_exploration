@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="./src/assets/logo.png" height="50px">&nbsp;<span style="font-size:80px;">Rover Steering</span>
+  <img alt="Logo" src="./src/assets/logo.png" height="40px">&nbsp;<span>Rover Steering</span>
 </h1>
 
 <h3 align="center">
@@ -59,7 +59,7 @@ Images of the application in operation.
 
 ## 🚀 Technologies
 
-Technologies that I used to develop this api
+Technologies that I used to develop this app
 
 
 - [React](https://reactjs.org/)
