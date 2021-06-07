@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="./src/assets/logo.png" height="80px">&nbsp;<span style="font-size:40px;">Rover Steering</span>
+  <img alt="Logo" src="./src/assets/logo.png" height="80px">&nbsp;<span style="font-size:80px;">Rover Steering</span>
 </h1>
 
 <h3 align="center">
