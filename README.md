@@ -50,11 +50,11 @@ This app was part of a composite challenge to challenge the ability to develop a
 Images of the application in operation.
 
 <p align="center">
-<img alt="Screen01" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098499/rover-steering/rounded-in-photoretrica_1_vmpeqp.png" width="600px">
+<img alt="Screen01" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098499/rover-steering/rounded-in-photoretrica_1_vmpeqp.png" width="800px">
 </p>
 
 <p align="center">
-<img alt="Screen02" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098514/rover-steering/rounded-in-photoretrica_ba0gkk.png" width="600px">
+<img alt="Screen02" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098514/rover-steering/rounded-in-photoretrica_ba0gkk.png" width="800px">
 </p>
 
 ## 🚀 Technologies
@@ -92,7 +92,7 @@ $ yarn
 ```
 To finish, run the webapp 
 ```bash
-$ yarn dev
+$ yarn start
 ```
 
 Well done, project is started!
