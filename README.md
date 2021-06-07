@@ -1,5 +1,5 @@
-<h1 align="center">
-  <img alt="Logo" src="./src/assets/logo.png" width="30px"> <span>Rover Steering</span>
+<h1 align="center" alignItems="center">
+  <img alt="Logo" src="./src/assets/logo.png" height="30px"> <span>Rover Steering</span>
 </h1>
 
 <h3 align="center">
@@ -50,11 +50,11 @@ This app was part of a composite challenge to challenge the ability to develop a
 Images of the application in operation.
 
 <p align="center">
-<img alt="Screen01" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098499/rover-steering/rounded-in-photoretrica_1_vmpeqp.png" width="500px">
+<img alt="Screen01" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098499/rover-steering/rounded-in-photoretrica_1_vmpeqp.png" width="600px">
 </p>
 
 <p align="center">
-<img alt="Screen02" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098514/rover-steering/rounded-in-photoretrica_ba0gkk.png" width="500px">
+<img alt="Screen02" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098514/rover-steering/rounded-in-photoretrica_ba0gkk.png" width="600px">
 </p>
 
 ## 🚀 Technologies
