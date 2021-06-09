@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="./src/assets/logo.png" height="40px">&nbsp;<span>Rover Steering</span>
+  <img alt="Logo" src="https://res.cloudinary.com/dvargas42/image/upload/v1623272078/mars-exploration/logo_zpeuta.png" width="500px">
 </h1>
 
 <h3 align="center">
@@ -10,20 +10,20 @@
 
 <p align="center">
 
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dvargas42/rover-steering?color=red">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dvargas42/mars_exploration?color=red">
 
   <a href="https://www.linkedin.com/in/daniel-santos-040983ab/" target="_blank" rel="noopener noreferrer">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-Daniel%20Vargas-red">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dvargas42/rover-steering?color=red">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dvargas42/mars_exploration?color=red">
 
   <a href="https://github.com/dvargas42/space-traveling/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dvargas42/rover-steering?color=red">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dvargas42/mars_exploration?color=red">
   </a>
 
   <a href="https://github.com/dvargas42/space-traveling/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/dvargas42/rover-steering?color=red">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/dvargas42/mars_exploration?color=red">
   </a>
 
   <img alt="GitHub" src="https://img.shields.io/github/license/dvargas42/rocketshoes?color=red">
@@ -50,11 +50,18 @@ This app was part of a composite challenge to challenge the ability to develop a
 Images of the application in operation.
 
 <p align="center">
-<img alt="Screen01" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098499/rover-steering/rounded-in-photoretrica_1_vmpeqp.png" width="800px">
+<img alt="Screen01" src="https://res.cloudinary.com/dvargas42/image/upload/v1623271865/mars-exploration/MarsExploration01_uvzpvz.png" width="400px">
+<img alt="Screen01" src="https://res.cloudinary.com/dvargas42/image/upload/v1623271864/mars-exploration/Mars2_ngfncg.png" width="400px">
 </p>
 
 <p align="center">
-<img alt="Screen02" src="https://res.cloudinary.com/dvargas42/image/upload/v1623098514/rover-steering/rounded-in-photoretrica_ba0gkk.png" width="800px">
+<img alt="Screen02" src="https://res.cloudinary.com/dvargas42/image/upload/v1623271864/mars-exploration/Mars3_yxajbw.png" width="400px">
+<img alt="Screen02" src="https://res.cloudinary.com/dvargas42/image/upload/v1623271865/mars-exploration/Mars4_a3gmxy.png" width="400px">
+</p>
+
+<p align="center">
+<img alt="Screen02" src="https://res.cloudinary.com/dvargas42/image/upload/v1623271865/mars-exploration/MarsError1_bvmift.png" width="400px">
+<img alt="Screen02" src="https://res.cloudinary.com/dvargas42/image/upload/v1623271864/mars-exploration/MarsError2_lp1hzb.png" width="400px">
 </p>
 
 ## 🚀 Technologies
@@ -81,7 +88,7 @@ Technologies that I used to develop this app
 ### Clone the project and access the folder
 
 ```bash
-$ git clone https://github.com/dvargas42/rover-steering.git
+$ git clone https://github.com/dvargas42/mars_exploration.git
 ```
 
 ### Follow the steps below**
@@ -105,14 +112,14 @@ Well done, project is started!
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork dvargas42/rover-steering
+$ gh repo fork dvargas42/mars_exploration
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd rover-steering
+$ git clone your-fork-url && cd mars_exploration
 # Create a branch with your feature
 $ git checkout -b my-feature
 
