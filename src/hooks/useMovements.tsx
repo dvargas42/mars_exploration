@@ -80,25 +80,25 @@ export function MovementsProvider({ children }: MovementsProviderProps) {
       switch (orientation) {
         case 'E':
           if (reliefCoordinates[0] < roverPosition[0] + 1){
-            throw('Atenção: Movimentos levarão rover a cair do Platô pelo lado Leste')
+            throw new Error('Atenção: Movimentos levarão rover a cair do Platô pelo lado Leste')
           }
           return [roverPosition[0] + 1, roverPosition[1]]
   
         case 'W':
           if (roverPosition[0] - 1 < 0){
-            throw('Atenção: Movimentos levarão rover a cair do Platô pelo lado Oeste')
+            throw new Error('Atenção: Movimentos levarão rover a cair do Platô pelo lado Oeste')
           }
           return [roverPosition[0] - 1, roverPosition[1]]
         
         case 'N':
           if (reliefCoordinates[1] < roverPosition[1] + 1){
-            throw('Atenção: Movimentos levarão rover a cair do Platô pelo lado Norte')
+            throw new Error('Atenção: Movimentos levarão rover a cair do Platô pelo lado Norte')
           }
           return [roverPosition[0], roverPosition[1] + 1]
   
         case 'S':
           if (roverPosition[1] - 1 < 0){
-            throw('Atenção: Movimentos levarão rover a cair do Platô pelo lado Sul')
+            throw new Error('Atenção: Movimentos levarão rover a cair do Platô pelo lado Sul')
           }
           return [roverPosition[0], roverPosition[1] - 1]
 
@@ -106,7 +106,11 @@ export function MovementsProvider({ children }: MovementsProviderProps) {
           return [roverPosition[0], roverPosition[1]]
       } 
     } catch (error) {
-      toast.error(error)
+      if(error.message){
+        toast.error(error.message)
+      } else {
+        toast.error(error)
+      }
       return [roverPosition[0], roverPosition[1]]
     }
     
@@ -148,8 +152,9 @@ export function MovementsProvider({ children }: MovementsProviderProps) {
           break;
 
         default:
-          throw('Instrução incorreta')
+          throw new Error('Instrução incorreta')
       }
+      return true;
     })
 
     const newRoverPosition = {
