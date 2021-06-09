@@ -6,10 +6,6 @@
   background: var(--background);
 }
 
-.dashContent {
-  //background-image: url('../assets/background.svg');
-}
-
 .cardContainer {
   margin-top: 1.25rem;
   display: grid;
@@ -57,4 +53,12 @@
       text-align: right;
     }
   }
+}
+
+.heroImg {
+  display: flex;
+  width: 40rem;
+  margin: 5rem auto 0;
+  opacity: 0.2;
+  filter: grayscale(100%);
 }
