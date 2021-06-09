@@ -1,5 +1,5 @@
 .headerContainer {
-  background-image: linear-gradient(45deg, var(--orange-200), var(--red-500));
+  background-image: linear-gradient(45deg,  var(--red-700),  var(--red-600));
 }
 
 .headerContent {
@@ -14,12 +14,29 @@
     img {
       height: 5rem;
     }
+   div {
+     display: flex;
+     margin-left: 1.5rem;
+     flex-direction: column;
+     align-items: center;
+
     span{
-      margin-left: 1.5rem;
-      color: var(--shape);
+      color: var(--red-500);
+      font-family: 'Michroma', sans-serif;
       font-weight: 600;
-      font-size: 2rem;
+      font-size: 2.75rem;
+      line-height: 2.7rem;
     }
+    p {
+      margin-top: 0;
+      color: var(--shape);
+      line-height: 1.4rem;
+      font-family: 'Michroma', sans-serif;
+      font-weight: 600;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+   }
 
   }
  
@@ -52,8 +69,8 @@
     button {
       margin-left: 3rem;
       font-size: 1rem;
-      color: #fff;
-      background: var(--red-200);
+      color: var(--shape);
+      background:var(--red-500);
       border: 0;
       padding: 0 2rem;
       border-radius: 0.25rem;
