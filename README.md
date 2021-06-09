@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="https://res.cloudinary.com/dvargas42/image/upload/v1623272078/mars-exploration/logo_zpeuta.png" width="500px">
+  <img alt="Logo" src="https://res.cloudinary.com/dvargas42/image/upload/v1623272078/mars-exploration/logo_zpeuta.png" width="700px">
 </h1>
 
 <h3 align="center">
