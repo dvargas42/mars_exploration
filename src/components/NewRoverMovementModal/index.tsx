@@ -25,8 +25,8 @@ export function NewRoverMovementModal({ isOpen, onRequestClose }:NewTransactionM
 
     createRoverData({
       roverName,
-      roverInitialPosition,
-      roverMovementIntruction,
+      roverInitialPosition: roverInitialPosition.toUpperCase(),
+      roverMovementIntruction: roverMovementIntruction.toUpperCase(),
     })
     setRoverName('');
     setRoverInitialPosition('');
