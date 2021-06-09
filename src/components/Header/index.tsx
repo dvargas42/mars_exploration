@@ -18,13 +18,17 @@ export function Header({onOpenRoverMovementModal}: HeaderProps) {
   function handlePlateauCoordinates() {
     try {
       if (!!plateauCoordinates) {
-        createPlateauCoordinates(plateauCoordinates)
+        createPlateauCoordinates(plateauCoordinates.toUpperCase())
         onOpenRoverMovementModal()
       } else {
-        throw('Por favor digite as coordenadas do platô')
+        throw new Error('Por favor digite as coordenadas do platô')
       }
-    } catch (e) {
-      toast.error(e)
+    } catch (error) {
+      if(error.message){
+        toast.error(error.message)
+      } else {
+        toast.error(error)
+      }
     }
   }
 
@@ -33,7 +37,10 @@ export function Header({onOpenRoverMovementModal}: HeaderProps) {
       <div className="headerContent">
         <div className="logo">
           <img src={logoImg} alt="rover" />
-          <span>Rover Steering</span>
+          <div>
+            <span>MARS</span>
+            <p>Exploration</p>
+          </div>
         </div>
         <div>
           <input 
